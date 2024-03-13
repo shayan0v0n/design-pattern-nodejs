@@ -1,6 +1,6 @@
 # all design patterns
 
-- Observer design pattern
+- observer design pattern
 - command design pattern
 - builder design pattern
 - prototype design pattern
