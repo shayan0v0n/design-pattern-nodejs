@@ -30,6 +30,7 @@ class WelcomeCommand extends BaseCommand {
   }
 }
 
+//invokers
 let commands = [
   new LogCommand("this is log 1"),
   new LogCommand("this is log 2"),
@@ -37,4 +38,5 @@ let commands = [
   new WelcomeCommand("wecome", "level 2"),
 ];
 
+//execute
 commands.forEach((c) => c.run());
