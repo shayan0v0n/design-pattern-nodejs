@@ -25,6 +25,7 @@ abstract class AbstractHandler implements Handler {
 class ConcreteHandler1 extends AbstractHandler {
   public handle(request: string): string | null {
     if (request === "one") {
+      //elible request
       return `Handled by ConcreteHandler1: ${request}`;
     } else {
       return super.handle(request);
@@ -36,6 +37,7 @@ class ConcreteHandler1 extends AbstractHandler {
 class ConcreteHandler2 extends AbstractHandler {
   public handle(request: string): string | null {
     if (request === "two") {
+      //elible request
       return `Handled by ConcreteHandler2: ${request}`;
     } else {
       return super.handle(request);
@@ -47,6 +49,7 @@ class ConcreteHandler2 extends AbstractHandler {
 class ConcreteHandler3 extends AbstractHandler {
   public handle(request: string): string | null {
     if (request === "three") {
+      //elible request
       return `Handled by ConcreteHandler3: ${request}`;
     } else {
       return super.handle(request);
