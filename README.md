@@ -6,30 +6,32 @@
 
 # Creatinal Patterns
 
--- abstract factory
--- factory design
--- singleton
--- builder
---prototype
+- abstract factory
+- factory design
+- singleton
+- builder
+- prototype
 
 # Structural Patterns
+
+- facade
+- proxy
 
 - adapter
 - bridge
 - composite
 - decorator
-  -- facade
 - flyweight
-  -- proxy
 
 # Behavioral Pattern
 
+- Command
+- Chain Of Responsibility
+- Observer
+
 - iterator
-  -- Command
-  -- Chain Of Responsibility
 - Mediator
 - Memento
-  -- Observer
 - State
 - Strategy
 - Template Method
@@ -37,5 +39,5 @@
 
 # Extra Pattern (Out Of the Plan)
 
--- IIFE
--- Dependency Injection
+- IIFE
+- Dependency Injection
