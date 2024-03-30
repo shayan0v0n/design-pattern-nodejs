@@ -15,5 +15,4 @@
 - adapter design pattern
 - mediator design pattern
 - state design pattern
-- solid design pattern
 - strategy design pattern
