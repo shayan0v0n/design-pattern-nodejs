@@ -16,7 +16,6 @@
 
 - facade
 - proxy
-
 - adapter
 - bridge
 - composite
@@ -28,7 +27,6 @@
 - Command
 - Chain Of Responsibility
 - Observer
-
 - iterator
 - Mediator
 - Memento
