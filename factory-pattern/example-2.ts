@@ -4,27 +4,27 @@ interface Product {
 }
 
 abstract class LogisitcFactory {
-  public abstract deliverMethod(): Product;
+  public abstract factoryMethod(): Product;
 
   public deliverOperation(): string {
-    const product = this.deliverMethod();
+    const product = this.factoryMethod();
     return `delivering ${product.deliver()}`;
   }
 
   public backOperation(): string {
-    const product = this.deliverMethod();
+    const product = this.factoryMethod();
     return `getting back ${product.back()}`;
   }
 }
 
 class RoadLogistics extends LogisitcFactory {
-  public deliverMethod(): Product {
+  public factoryMethod(): Product {
     return new Truck();
   }
 }
 
 class SeaLogistics extends LogisitcFactory {
-  public deliverMethod(): Product {
+  public factoryMethod(): Product {
     return new Ship();
   }
 }
